@@ -1,2 +1,2 @@
 # alyo-case
-Alyo Bilişim Case
+Alyo Bilişim Puzzle Challenge
