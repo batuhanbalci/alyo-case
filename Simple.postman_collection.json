@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "4cfb8b40-8cbf-47bd-8ae6-f4e2f150198d",
+		"name": "Simple",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://hire.verkata.com/askme/candidates/2021_05/batuhan_balc__143b7dd3",
+			"protocolProfileBehavior": {
+				"followOriginalHttpMethod": true,
+				"followRedirects": true,
+				"removeRefererHeaderOnRedirect": false,
+				"disabledSystemHeaders": {
+					"accept-encoding": true,
+					"connection": true,
+					"accept": true,
+					"user-agent": true
+				},
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Referer",
+						"value": "http://google.com/candidates/batuhan_balc_",
+						"type": "text"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Mobile Safari/537.36",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hire.verkata.com/askme/candidates/2021_05/batuhan_balc__143b7dd3",
+					"protocol": "https",
+					"host": [
+						"hire",
+						"verkata",
+						"com"
+					],
+					"path": [
+						"askme",
+						"candidates",
+						"2021_05",
+						"batuhan_balc__143b7dd3"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
